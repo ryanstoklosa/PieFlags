@@ -1,0 +1,186 @@
+/* Overall page styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Main game container */
+#game-container {
+    background: rgba(255,255,255,0.12);
+    padding: 30px;
+    border-radius: 20px;
+    width: 65%;
+    margin: auto;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    animation: fadeIn 0.8s ease;
+}
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Title styling */
+h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Pie chart canvas styling */
+#pie-chart {
+    margin: 20px auto;
+    display: block;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Input + button area */
+.input-area {
+    margin-top: 20px;
+}
+
+/* Text input styling */
+input {
+    padding: 12px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+/* Button base styling */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #ffcc00;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #ffe066;
+    transform: scale(1.05);
+}
+
+/* New game button styling */
+.new-game {
+    margin-top: 20px;
+    background: #00c853;
+}
+
+/* New game hover */
+.new-game:hover {
+    background: #5efc82;
+}
+
+/* Main message text */
+#message {
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Hints container */
+#hints {
+    margin-top: 15px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Previous guesses container */
+#previous-guesses {
+    margin-top: 15px;
+}
+
+/* Individual wrong guess styling */
+.wrong-guess {
+    background: rgba(255, 0, 0, 0.25);
+    padding: 8px;
+    margin: 5px auto;
+    width: 40%;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Stats box */
+#stats {
+    margin-top: 25px;
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 12px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stats h3 {
+    margin-bottom: 10px;
+}
+
+/* Popup overlay */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hidden state for popup */
+.hidden {
+    display: none;
+}
+
+/* Popup content box */
+.popup-content {
+    background: #ffffff;
+    color: #000;
+    padding: 25px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    animation: fadeIn 0.4s ease;
+}
+
+/* Flag image in popup */
+#popup-flag {
+    width: 200px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* Wrong guesses in popup */
+#popup-wrong div {
+    background: rgba(255, 0, 0, 0.25);
+    padding: 6px;
+    margin: 4px auto;
+    width: 70%;
+    border-radius: 6px;
+}
+
+/* Next round button in popup */
+#popup-next-btn {
+    margin-top: 15px;
+    background: #00c853;
+    color: white;
+}
+
+/* Hover for next round button */
+#popup-next-btn:hover {
+    background: #5efc82;
+}

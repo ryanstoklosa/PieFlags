@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PieFlags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-container">
+    <h1>PieFlags</h1>
+
+    <!-- Canvas for the pie chart -->
+    <canvas id="pie-chart" width="300" height="300"></canvas>
+
+    <!-- Guess input + button -->
+    <div class="input-area">
+        <input id="guess-input" placeholder="Guess the country">
+        <button id="guess-btn">Submit Guess</button>
+    </div>
+
+    <!-- Previous wrong guesses -->
+    <div id="previous-guesses"></div>
+
+    <!-- Status message (correct / wrong / out of guesses) -->
+    <p id="message"></p>
+
+    <!-- Hints appear one by one after wrong guesses -->
+    <div id="hints"></div>
+
+    <!-- Manual new game button -->
+    <button id="new-game-btn" class="new-game">New Game</button>
+
+    <!-- Simple stats area -->
+    <div id="stats">
+        <h3>Stats</h3>
+        <p id="missed-count">Missed Flags: 0</p>
+    </div>
+</div>
+
+<!-- Popup summary after round ends -->
+<div id="popup" class="popup hidden">
+    <div class="popup-content">
+        <h2>Round Summary</h2>
+        <img id="popup-flag" src="" alt="Flag Image">
+        <p id="popup-answer"></p>
+        <p id="popup-guesses"></p>
+        <div id="popup-wrong"></div>
+        <button id="popup-next-btn">Next Round</button>
+    </div>
+</div>
+
+<!-- Flag data + game logic -->
+<script src="flag.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
