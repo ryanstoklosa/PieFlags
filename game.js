@@ -10,6 +10,7 @@ let missedFlags = 0;         // total missed flags
 let hintIndex = 0;           // which hint to show next (0,1,2)
 let previousGuesses = [];    // wrong guesses this round
 let unusedFlags = [];        // pool of flags not yet used in this cycle
+let currentMode = "easy";   // default mode
 
 // Fisher–Yates shuffle for randomizing flag order
 function shuffle(array) {
@@ -107,12 +108,15 @@ document.getElementById("popup-next-btn").addEventListener("click", () => {
 });
 
 // Starts a new round with a new flag
+
 function newGame() {
-    // If we've used all flags, reset the pool and reshuffle
-    if (unusedFlags.length === 0) {
-        unusedFlags = [...flags];
-        shuffle(unusedFlags);
-    }
+    // Filter flags by difficulty
+    unusedFlags = flags.filter(flag => flag.difficulty === currentMode);
+    // Shuffle the filtered list
+    shuffle(unusedFlags);
+    // Pick the next flag
+    currentFlag = unusedFlags.pop();
+
 
     // Pick the next flag from the pool
     currentFlag = unusedFlags.pop();
@@ -125,6 +129,9 @@ function newGame() {
     document.getElementById("guess-input").value = "";
     document.getElementById("hints").innerHTML = "";
     document.getElementById("previous-guesses").innerHTML = "";
+    document.getElementById("difficulty-display").textContent =
+    `Mode: ${currentMode.charAt(0).toUpperCase() + currentMode.slice(1)}`;
+
 
     // Draw the pie chart for this flag
     drawPieChart(currentFlag.colors);
@@ -168,6 +175,16 @@ function submitGuess() {
     }
 }
 
+function giveUp() {
+    // Mark the round as missed
+    missedFlags++;
+    document.getElementById("missed-count").textContent =
+        `Missed Flags: ${missedFlags}`;
+
+    // End the round immediately
+    showPopup(false);
+}
+
 // Updates the list of previous wrong guesses in the main UI
 function updatePreviousGuesses() {
     const container = document.getElementById("previous-guesses");
@@ -184,6 +201,20 @@ function updatePreviousGuesses() {
 // Attach event listeners for main buttons
 document.getElementById("guess-btn").addEventListener("click", submitGuess);
 document.getElementById("new-game-btn").addEventListener("click", newGame);
+document.getElementById("give-up-btn").addEventListener("click", giveUp);
+document.getElementById("difficulty-display").textContent = "Mode: Easy";
+
+
+document.getElementById("easy-mode-btn").addEventListener("click", () => {
+    currentMode = "easy";
+    newGame();
+});
+document.getElementById("hard-mode-btn").addEventListener("click", () => {
+    currentMode = "hard";
+    newGame();
+});
+
+
 
 // Initialize game: set up unusedFlags and start first round
 function initGame() {
