@@ -15,6 +15,7 @@ const flags = [
 {
     country: "Albania",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/al.png",
     colors: {
         "#E41E20": 94,
@@ -24,6 +25,7 @@ const flags = [
 {
     country: "Andorra",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ad.png",
     colors: {
         "#0033A0": 33,
@@ -35,6 +37,7 @@ const flags = [
 {
     country: "Armenia",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/am.png",
     colors: {
         "#D90012": 33,
@@ -45,6 +48,7 @@ const flags = [
 {
     country: "Austria",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/at.png",
     colors: {
         "#ED2939": 67,
@@ -54,6 +58,7 @@ const flags = [
 {
     country: "Azerbaijan",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/az.png",
     colors: {
         "#00B5E2": 33,
@@ -65,6 +70,7 @@ const flags = [
 {
     country: "Belarus",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/by.png",
     colors: {
         "#D22730": 60,
@@ -76,6 +82,7 @@ const flags = [
 {
     country: "Belgium",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/be.png",
     colors: {
         "#000000": 33,
@@ -86,6 +93,7 @@ const flags = [
 {
     country: "Bosnia and Herzegovina",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ba.png",
     colors: {
         "#002F6C": 70,
@@ -96,6 +104,7 @@ const flags = [
 {
     country: "Bulgaria",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/bg.png",
     colors: {
         "#FFFFFF": 33,
@@ -106,6 +115,7 @@ const flags = [
 {
     country: "Croatia",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/hr.png",
     colors: {
         "#FF0000": 33,
@@ -116,18 +126,9 @@ const flags = [
     }
 },
 {
-    country: "Cyprus",
-    continent: "Europe",
-    img: "https://flagcdn.com/w320/cy.png",
-    colors: {
-        "#FFFFFF": 90,
-        "#D57800": 8,
-        "#5A8F3A": 2
-    }
-},
-{
     country: "Czech Republic",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/cz.png",
     colors: {
         "#FFFFFF": 50,
@@ -138,6 +139,7 @@ const flags = [
 {
     country: "Denmark",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/dk.png",
     colors: {
         "#C8102E": 80,
@@ -147,6 +149,7 @@ const flags = [
 {
     country: "Estonia",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ee.png",
     colors: {
         "#0072CE": 33,
@@ -157,6 +160,7 @@ const flags = [
 {
     country: "Finland",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/fi.png",
     colors: {
         "#FFFFFF": 80,
@@ -166,6 +170,7 @@ const flags = [
 {
     country: "France",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/fr.png",
     colors: {
         "#0055A4": 33,
@@ -176,6 +181,7 @@ const flags = [
 {
     country: "Georgia",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ge.png",
     colors: {
         "#FFFFFF": 80,
@@ -185,6 +191,7 @@ const flags = [
 {
     country: "Germany",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/de.png",
     colors: {
         "#000000": 33,
@@ -195,6 +202,7 @@ const flags = [
 {
     country: "Greece",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/gr.png",
     colors: {
         "#0D5EAF": 50,
@@ -204,6 +212,7 @@ const flags = [
 {
     country: "Hungary",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/hu.png",
     colors: {
         "#CE2939": 33,
@@ -214,6 +223,7 @@ const flags = [
 {
     country: "Iceland",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/is.png",
     colors: {
         "#003897": 80,
@@ -224,6 +234,7 @@ const flags = [
 {
     country: "Ireland",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ie.png",
     colors: {
         "#169B62": 33,
@@ -234,6 +245,7 @@ const flags = [
 {
     country: "Italy",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/it.png",
     colors: {
         "#009246": 33,
@@ -242,17 +254,9 @@ const flags = [
     }
 },
 {
-    country: "Kazakhstan",
-    continent: "Europe",
-    img: "https://flagcdn.com/w320/kz.png",
-    colors: {
-        "#00A3E0": 90,
-        "#F2C300": 10
-    }
-},
-{
     country: "Latvia",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/lv.png",
     colors: {
         "#9E1B34": 67,
@@ -262,6 +266,7 @@ const flags = [
 {
     country: "Liechtenstein",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/li.png",
     colors: {
         "#002B7F": 50,
@@ -272,6 +277,7 @@ const flags = [
 {
     country: "Lithuania",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/lt.png",
     colors: {
         "#FDB913": 33,
@@ -282,6 +288,7 @@ const flags = [
 {
     country: "Luxembourg",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/lu.png",
     colors: {
         "#EF3340": 33,
@@ -292,6 +299,7 @@ const flags = [
 {
     country: "Malta",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mt.png",
     colors: {
         "#FFFFFF": 50,
@@ -302,6 +310,7 @@ const flags = [
 {
     country: "Moldova",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/md.png",
     colors: {
         "#0033A0": 33,
@@ -313,6 +322,7 @@ const flags = [
 {
     country: "Monaco",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mc.png",
     colors: {
         "#CE1126": 50,
@@ -322,6 +332,7 @@ const flags = [
 {
     country: "Montenegro",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/me.png",
     colors: {
         "#C8102E": 80,
@@ -331,6 +342,7 @@ const flags = [
 {
     country: "Netherlands",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/nl.png",
     colors: {
         "#AE1C28": 33,
@@ -341,6 +353,7 @@ const flags = [
 {
     country: "North Macedonia",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mk.png",
     colors: {
         "#D20000": 80,
@@ -350,6 +363,7 @@ const flags = [
 {
     country: "Norway",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/no.png",
     colors: {
         "#BA0C2F": 70,
@@ -360,6 +374,7 @@ const flags = [
 {
     country: "Poland",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/pl.png",
     colors: {
         "#FFFFFF": 50,
@@ -369,6 +384,7 @@ const flags = [
 {
     country: "Portugal",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/pt.png",
     colors: {
         "#006600": 40,
@@ -379,6 +395,7 @@ const flags = [
 {
     country: "Romania",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ro.png",
     colors: {
         "#002B7F": 33,
@@ -389,6 +406,7 @@ const flags = [
 {
     country: "Russia",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ru.png",
     colors: {
         "#FFFFFF": 33,
@@ -399,6 +417,7 @@ const flags = [
 {
     country: "San Marino",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sm.png",
     colors: {
         "#FFFFFF": 50,
@@ -409,6 +428,7 @@ const flags = [
 {
     country: "Serbia",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/rs.png",
     colors: {
         "#C8102E": 33,
@@ -420,6 +440,7 @@ const flags = [
 {
     country: "Slovakia",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sk.png",
     colors: {
         "#FFFFFF": 33,
@@ -431,6 +452,7 @@ const flags = [
 {
     country: "Slovenia",
     continent: "Europe",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/si.png",
     colors: {
         "#FFFFFF": 33,
@@ -442,6 +464,7 @@ const flags = [
 {
     country: "Spain",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/es.png",
     colors: {
         "#AA151B": 50,
@@ -451,6 +474,7 @@ const flags = [
 {
     country: "Sweden",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/se.png",
     colors: {
         "#006AA7": 80,
@@ -460,6 +484,7 @@ const flags = [
 {
     country: "Switzerland",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ch.png",
     colors: {
         "#D52B1E": 92,
@@ -469,6 +494,7 @@ const flags = [
 {
     country: "Turkey",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/tr.png",
     colors: {
         "#E30A17": 90,
@@ -478,6 +504,7 @@ const flags = [
 {
     country: "Ukraine",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ua.png",
     colors: {
         "#0057B7": 50,
@@ -487,6 +514,7 @@ const flags = [
 {
     country: "United Kingdom",
     continent: "Europe",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/gb.png",
     colors: {
         "#012169": 38,
@@ -503,6 +531,7 @@ const flags = [
 {
     country: "Afghanistan",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/af.png",
     colors: {
         "#000000": 33,
@@ -514,6 +543,7 @@ const flags = [
 {
     country: "Armenia",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/am.png",
     colors: {
         "#D90012": 33,
@@ -524,6 +554,7 @@ const flags = [
 {
     country: "Azerbaijan",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/az.png",
     colors: {
         "#00B5E2": 33,
@@ -535,6 +566,7 @@ const flags = [
 {
     country: "Bahrain",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/bh.png",
     colors: {
         "#FFFFFF": 45,
@@ -544,6 +576,7 @@ const flags = [
 {
     country: "Bangladesh",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/bd.png",
     colors: {
         "#006A4E": 90,
@@ -553,6 +586,7 @@ const flags = [
 {
     country: "Bhutan",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/bt.png",
     colors: {
         "#FFCC00": 50,
@@ -563,6 +597,7 @@ const flags = [
 {
     country: "Brunei",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/bn.png",
     colors: {
         "#F7E017": 70,
@@ -574,6 +609,7 @@ const flags = [
 {
     country: "Cambodia",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/kh.png",
     colors: {
         "#032EA1": 67,
@@ -584,6 +620,7 @@ const flags = [
 {
     country: "China",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/cn.png",
     colors: {
         "#EE1C25": 90,
@@ -593,6 +630,7 @@ const flags = [
 {
     country: "Cyprus",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/cy.png",
     colors: {
         "#FFFFFF": 90,
@@ -601,17 +639,9 @@ const flags = [
     }
 },
 {
-    country: "Georgia",
-    continent: "Asia",
-    img: "https://flagcdn.com/w320/ge.png",
-    colors: {
-        "#FFFFFF": 80,
-        "#C8102E": 20
-    }
-},
-{
     country: "India",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/in.png",
     colors: {
         "#FF9933": 33,
@@ -623,6 +653,7 @@ const flags = [
 {
     country: "Indonesia",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/id.png",
     colors: {
         "#FF0000": 50,
@@ -632,6 +663,7 @@ const flags = [
 {
     country: "Iran",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ir.png",
     colors: {
         "#239F40": 33,
@@ -643,6 +675,7 @@ const flags = [
 {
     country: "Iraq",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/iq.png",
     colors: {
         "#CE1126": 33,
@@ -654,6 +687,7 @@ const flags = [
 {
     country: "Israel",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/il.png",
     colors: {
         "#FFFFFF": 80,
@@ -663,6 +697,7 @@ const flags = [
 {
     country: "Japan",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/jp.png",
     colors: {
         "#FFFFFF": 92,
@@ -672,6 +707,7 @@ const flags = [
 {
     country: "Jordan",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/jo.png",
     colors: {
         "#000000": 33,
@@ -683,6 +719,7 @@ const flags = [
 {
     country: "Kazakhstan",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/kz.png",
     colors: {
         "#00A3E0": 90,
@@ -692,6 +729,7 @@ const flags = [
 {
     country: "Kuwait",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/kw.png",
     colors: {
         "#007A3D": 33,
@@ -703,6 +741,7 @@ const flags = [
 {
     country: "Kyrgyzstan",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/kg.png",
     colors: {
         "#E8112D": 90,
@@ -712,6 +751,7 @@ const flags = [
 {
     country: "Laos",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/la.png",
     colors: {
         "#CE1126": 50,
@@ -722,6 +762,7 @@ const flags = [
 {
     country: "Lebanon",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/lb.png",
     colors: {
         "#D40000": 40,
@@ -732,6 +773,7 @@ const flags = [
 {
     country: "Malaysia",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/my.png",
     colors: {
         "#CC0001": 50,
@@ -743,6 +785,7 @@ const flags = [
 {
     country: "Maldives",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mv.png",
     colors: {
         "#D21034": 80,
@@ -753,6 +796,7 @@ const flags = [
 {
     country: "Mongolia",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/mn.png",
     colors: {
         "#C4272F": 67,
@@ -763,6 +807,7 @@ const flags = [
 {
     country: "Myanmar",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mm.png",
     colors: {
         "#FECB00": 33,
@@ -774,6 +819,7 @@ const flags = [
 {
     country: "Nepal",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/np.png",
     colors: {
         "#DC143C": 60,
@@ -784,6 +830,7 @@ const flags = [
 {
     country: "North Korea",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/kp.png",
     colors: {
         "#ED1C27": 50,
@@ -794,6 +841,7 @@ const flags = [
 {
     country: "Oman",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/om.png",
     colors: {
         "#FFFFFF": 20,
@@ -804,6 +852,7 @@ const flags = [
 {
     country: "Pakistan",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/pk.png",
     colors: {
         "#01411C": 70,
@@ -813,6 +862,7 @@ const flags = [
 {
     country: "Palestine",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ps.png",
     colors: {
         "#000000": 33,
@@ -824,6 +874,7 @@ const flags = [
 {
     country: "Philippines",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ph.png",
     colors: {
         "#0038A8": 40,
@@ -835,6 +886,7 @@ const flags = [
 {
     country: "Qatar",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/qa.png",
     colors: {
         "#8A1538": 70,
@@ -844,6 +896,7 @@ const flags = [
 {
     country: "Saudi Arabia",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/sa.png",
     colors: {
         "#006C35": 90,
@@ -853,6 +906,7 @@ const flags = [
 {
     country: "Singapore",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sg.png",
     colors: {
         "#ED2939": 50,
@@ -862,6 +916,7 @@ const flags = [
 {
     country: "South Korea",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/kr.png",
     colors: {
         "#FFFFFF": 80,
@@ -873,6 +928,7 @@ const flags = [
 {
     country: "Sri Lanka",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/lk.png",
     colors: {
         "#FFB612": 40,
@@ -885,6 +941,7 @@ const flags = [
 {
     country: "Syria",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sy.png",
     colors: {
         "#CE1126": 33,
@@ -896,6 +953,7 @@ const flags = [
 {
     country: "Tajikistan",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/tj.png",
     colors: {
         "#D40000": 33,
@@ -907,6 +965,7 @@ const flags = [
 {
     country: "Thailand",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/th.png",
     colors: {
         "#A51931": 30,
@@ -917,6 +976,7 @@ const flags = [
 {
     country: "Timor-Leste",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/tl.png",
     colors: {
         "#DC241F": 70,
@@ -926,17 +986,9 @@ const flags = [
     }
 },
 {
-    country: "Turkey",
-    continent: "Asia",
-    img: "https://flagcdn.com/w320/tr.png",
-    colors: {
-        "#E30A17": 90,
-        "#FFFFFF": 10
-    }
-},
-{
     country: "Turkmenistan",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/tm.png",
     colors: {
         "#009639": 80,
@@ -947,6 +999,7 @@ const flags = [
 {
     country: "United Arab Emirates",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ae.png",
     colors: {
         "#FF0000": 25,
@@ -958,6 +1011,7 @@ const flags = [
 {
     country: "Uzbekistan",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/uz.png",
     colors: {
         "#0099B5": 40,
@@ -969,6 +1023,7 @@ const flags = [
 {
     country: "Vietnam",
     continent: "Asia",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/vn.png",
     colors: {
         "#DA251D": 90,
@@ -978,6 +1033,7 @@ const flags = [
 {
     country: "Yemen",
     continent: "Asia",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ye.png",
     colors: {
         "#CE1126": 33,
@@ -995,6 +1051,7 @@ const flags = [
 {
     country: "Algeria",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/dz.png",
     colors: {
         "#006233": 50,
@@ -1005,6 +1062,7 @@ const flags = [
 {
     country: "Angola",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ao.png",
     colors: {
         "#000000": 50,
@@ -1015,6 +1073,7 @@ const flags = [
 {
     country: "Benin",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/bj.png",
     colors: {
         "#008751": 50,
@@ -1025,6 +1084,7 @@ const flags = [
 {
     country: "Botswana",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/bw.png",
     colors: {
         "#75AADB": 80,
@@ -1035,6 +1095,7 @@ const flags = [
 {
     country: "Burkina Faso",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/bf.png",
     colors: {
         "#EF3340": 50,
@@ -1045,6 +1106,7 @@ const flags = [
 {
     country: "Burundi",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/bi.png",
     colors: {
         "#CE1126": 40,
@@ -1055,6 +1117,7 @@ const flags = [
 {
     country: "Cabo Verde",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/cv.png",
     colors: {
         "#003893": 70,
@@ -1066,6 +1129,7 @@ const flags = [
 {
     country: "Cameroon",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/cm.png",
     colors: {
         "#007A5E": 33,
@@ -1076,6 +1140,7 @@ const flags = [
 {
     country: "Central African Republic",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/cf.png",
     colors: {
         "#003082": 25,
@@ -1088,6 +1153,7 @@ const flags = [
 {
     country: "Chad",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/td.png",
     colors: {
         "#002664": 33,
@@ -1098,6 +1164,7 @@ const flags = [
 {
     country: "Comoros",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/km.png",
     colors: {
         "#FFC61E": 25,
@@ -1110,6 +1177,7 @@ const flags = [
 {
     country: "Congo (Republic)",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/cg.png",
     colors: {
         "#009543": 33,
@@ -1120,6 +1188,7 @@ const flags = [
 {
     country: "Congo (DRC)",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/cd.png",
     colors: {
         "#007FFF": 80,
@@ -1130,6 +1199,7 @@ const flags = [
 {
     country: "Djibouti",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/dj.png",
     colors: {
         "#6AB2E7": 50,
@@ -1141,6 +1211,7 @@ const flags = [
 {
     country: "Egypt",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/eg.png",
     colors: {
         "#CE1126": 33,
@@ -1152,6 +1223,7 @@ const flags = [
 {
     country: "Equatorial Guinea",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/gq.png",
     colors: {
         "#009739": 33,
@@ -1164,6 +1236,7 @@ const flags = [
 {
     country: "Eritrea",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/er.png",
     colors: {
         "#12B2B2": 33,
@@ -1175,6 +1248,7 @@ const flags = [
 {
     country: "Eswatini",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sz.png",
     colors: {
         "#3A75C4": 60,
@@ -1187,6 +1261,7 @@ const flags = [
 {
     country: "Ethiopia",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/et.png",
     colors: {
         "#078930": 33,
@@ -1198,6 +1273,7 @@ const flags = [
 {
     country: "Gabon",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ga.png",
     colors: {
         "#009E60": 33,
@@ -1208,6 +1284,7 @@ const flags = [
 {
     country: "Gambia",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/gm.png",
     colors: {
         "#CE1126": 33,
@@ -1220,6 +1297,7 @@ const flags = [
 {
     country: "Ghana",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/gh.png",
     colors: {
         "#CE1126": 33,
@@ -1231,6 +1309,7 @@ const flags = [
 {
     country: "Guinea",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/gn.png",
     colors: {
         "#CE1126": 33,
@@ -1241,6 +1320,7 @@ const flags = [
 {
     country: "Guinea-Bissau",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/gw.png",
     colors: {
         "#CE1126": 33,
@@ -1252,6 +1332,7 @@ const flags = [
 {
     country: "Kenya",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ke.png",
     colors: {
         "#000000": 33,
@@ -1263,6 +1344,7 @@ const flags = [
 {
     country: "Lesotho",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ls.png",
     colors: {
         "#00209F": 33,
@@ -1274,6 +1356,7 @@ const flags = [
 {
     country: "Liberia",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/lr.png",
     colors: {
         "#BF0A30": 55,
@@ -1284,6 +1367,7 @@ const flags = [
 {
     country: "Libya",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ly.png",
     colors: {
         "#CE1126": 33,
@@ -1295,6 +1379,7 @@ const flags = [
 {
     country: "Madagascar",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mg.png",
     colors: {
         "#FFFFFF": 33,
@@ -1305,6 +1390,7 @@ const flags = [
 {
     country: "Malawi",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mw.png",
     colors: {
         "#000000": 33,
@@ -1315,6 +1401,7 @@ const flags = [
 {
     country: "Mali",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ml.png",
     colors: {
         "#009739": 33,
@@ -1325,6 +1412,7 @@ const flags = [
 {
     country: "Mauritania",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mr.png",
     colors: {
         "#006233": 80,
@@ -1334,6 +1422,7 @@ const flags = [
 {
     country: "Mauritius",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mu.png",
     colors: {
         "#CE1126": 25,
@@ -1345,6 +1434,7 @@ const flags = [
 {
     country: "Morocco",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ma.png",
     colors: {
         "#C1272D": 95,
@@ -1354,6 +1444,7 @@ const flags = [
 {
     country: "Mozambique",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mz.png",
     colors: {
         "#007A33": 33,
@@ -1366,6 +1457,7 @@ const flags = [
 {
     country: "Namibia",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/na.png",
     colors: {
         "#003580": 40,
@@ -1378,6 +1470,7 @@ const flags = [
 {
     country: "Niger",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ne.png",
     colors: {
         "#E05206": 33,
@@ -1389,6 +1482,7 @@ const flags = [
 {
     country: "Nigeria",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ng.png",
     colors: {
         "#008751": 50,
@@ -1398,6 +1492,7 @@ const flags = [
 {
     country: "Rwanda",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/rw.png",
     colors: {
         "#00A1DE": 50,
@@ -1408,6 +1503,7 @@ const flags = [
 {
     country: "Sao Tome and Principe",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/st.png",
     colors: {
         "#009739": 50,
@@ -1419,17 +1515,18 @@ const flags = [
 {
     country: "Senegal",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/sn.png",
     colors: {
-        "#00853F": 33,
+        "#00853F": 35,
         "#FCD116": 33,
         "#E31B23": 33,
-        "#006233": 2
     }
 },
 {
     country: "Seychelles",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/sc.png",
     colors: {
         "#003D8E": 20,
@@ -1442,6 +1539,7 @@ const flags = [
 {
     country: "Sierra Leone",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sl.png",
     colors: {
         "#1EB53A": 33,
@@ -1452,6 +1550,7 @@ const flags = [
 {
     country: "Somalia",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/so.png",
     colors: {
         "#40A6FF": 95,
@@ -1461,6 +1560,7 @@ const flags = [
 {
     country: "South Africa",
     continent: "Africa",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/za.png",
     colors: {
         "#007749": 28,
@@ -1474,6 +1574,7 @@ const flags = [
 {
     country: "South Sudan",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ss.png",
     colors: {
         "#CE1126": 33,
@@ -1486,6 +1587,7 @@ const flags = [
 {
     country: "Sudan",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sd.png",
     colors: {
         "#CE1126": 33,
@@ -1497,6 +1599,7 @@ const flags = [
 {
     country: "Tanzania",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/tz.png",
     colors: {
         "#1EB53A": 40,
@@ -1508,6 +1611,7 @@ const flags = [
 {
     country: "Togo",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/tg.png",
     colors: {
         "#006A4E": 60,
@@ -1519,6 +1623,7 @@ const flags = [
 {
     country: "Tunisia",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/tn.png",
     colors: {
         "#E70013": 90,
@@ -1528,6 +1633,7 @@ const flags = [
 {
     country: "Uganda",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ug.png",
     colors: {
         "#FCD116": 33,
@@ -1539,6 +1645,7 @@ const flags = [
 {
     country: "Zambia",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/zm.png",
     colors: {
         "#198A00": 80,
@@ -1550,6 +1657,7 @@ const flags = [
 {
     country: "Zimbabwe",
     continent: "Africa",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/zw.png",
     colors: {
         "#009739": 20,
@@ -1569,6 +1677,7 @@ const flags = [
 {
     country: "Antigua and Barbuda",
     continent: "North America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ag.png",
     colors: {
         "#000000": 40,
@@ -1581,6 +1690,7 @@ const flags = [
 {
     country: "Bahamas",
     continent: "North America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/bs.png",
     colors: {
         "#00A3E0": 60,
@@ -1591,6 +1701,7 @@ const flags = [
 {
     country: "Barbados",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/bb.png",
     colors: {
         "#00267F": 66,
@@ -1601,6 +1712,7 @@ const flags = [
 {
     country: "Belize",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/bz.png",
     colors: {
         "#002B7F": 70,
@@ -1613,15 +1725,17 @@ const flags = [
 {
     country: "Canada",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ca.png",
     colors: {
-        "#FF0000": 50,
-        "#FFFFFF": 50
+        "#FF0000": 60,
+        "#FFFFFF": 40
     }
 },
 {
     country: "Costa Rica",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/cr.png",
     colors: {
         "#002B7F": 40,
@@ -1632,6 +1746,7 @@ const flags = [
 {
     country: "Cuba",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/cu.png",
     colors: {
         "#002A8F": 40,
@@ -1642,6 +1757,7 @@ const flags = [
 {
     country: "Dominica",
     continent: "North America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/dm.png",
     colors: {
         "#006B3F": 60,
@@ -1654,6 +1770,7 @@ const flags = [
 {
     country: "Dominican Republic",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/do.png",
     colors: {
         "#002D62": 40,
@@ -1665,6 +1782,7 @@ const flags = [
 {
     country: "El Salvador",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/sv.png",
     colors: {
         "#0047AB": 66,
@@ -1675,6 +1793,7 @@ const flags = [
 {
     country: "Grenada",
     continent: "North America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/gd.png",
     colors: {
         "#CE1126": 50,
@@ -1685,6 +1804,7 @@ const flags = [
 {
     country: "Guatemala",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/gt.png",
     colors: {
         "#6CCFF6": 66,
@@ -1695,6 +1815,7 @@ const flags = [
 {
     country: "Haiti",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ht.png",
     colors: {
         "#00209F": 50,
@@ -1706,6 +1827,7 @@ const flags = [
 {
     country: "Honduras",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/hn.png",
     colors: {
         "#FFFFFF": 66,
@@ -1715,6 +1837,7 @@ const flags = [
 {
     country: "Jamaica",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/jm.png",
     colors: {
         "#009B3A": 50,
@@ -1725,6 +1848,7 @@ const flags = [
 {
     country: "Mexico",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/mx.png",
     colors: {
         "#006847": 33,
@@ -1736,6 +1860,7 @@ const flags = [
 {
     country: "Nicaragua",
     continent: "North America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ni.png",
     colors: {
         "#0057B7": 66,
@@ -1746,6 +1871,7 @@ const flags = [
 {
     country: "Panama",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/pa.png",
     colors: {
         "#FFFFFF": 50,
@@ -1756,6 +1882,7 @@ const flags = [
 {
     country: "Saint Kitts and Nevis",
     continent: "North America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/kn.png",
     colors: {
         "#009739": 40,
@@ -1768,6 +1895,7 @@ const flags = [
 {
     country: "Saint Lucia",
     continent: "North America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/lc.png",
     colors: {
         "#66CCFF": 80,
@@ -1779,6 +1907,7 @@ const flags = [
 {
     country: "Saint Vincent and the Grenadines",
     continent: "North America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/vc.png",
     colors: {
         "#FCD116": 50,
@@ -1790,6 +1919,7 @@ const flags = [
 {
     country: "Trinidad and Tobago",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/tt.png",
     colors: {
         "#CE1126": 80,
@@ -1800,6 +1930,7 @@ const flags = [
 {
     country: "United States",
     continent: "North America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/us.png",
     colors: {
         "#B22234": 41,
@@ -1810,6 +1941,7 @@ const flags = [
 {
     country: "Argentina",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ar.png",
     colors: {
         "#74ACDF": 66,
@@ -1820,6 +1952,7 @@ const flags = [
 {
     country: "Bolivia",
     continent: "South America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/bo.png",
     colors: {
         "#D52B1E": 33,
@@ -1831,6 +1964,7 @@ const flags = [
 {
     country: "Brazil",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/br.png",
     colors: {
         "#009C3B": 63,
@@ -1842,6 +1976,7 @@ const flags = [
 {
     country: "Chile",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/cl.png",
     colors: {
         "#D52B1E": 50,
@@ -1852,6 +1987,7 @@ const flags = [
 {
     country: "Colombia",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/co.png",
     colors: {
         "#FCD116": 50,
@@ -1862,6 +1998,7 @@ const flags = [
 {
     country: "Ecuador",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ec.png",
     colors: {
         "#FCD116": 50,
@@ -1873,6 +2010,7 @@ const flags = [
 {
     country: "Guyana",
     continent: "South America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/gy.png",
     colors: {
         "#009739": 50,
@@ -1885,6 +2023,7 @@ const flags = [
 {
     country: "Paraguay",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/py.png",
     colors: {
         "#D52B1E": 33,
@@ -1896,16 +2035,17 @@ const flags = [
 {
     country: "Peru",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/pe.png",
     colors: {
-        "#D91023": 66,
+        "#D91023": 67,
         "#FFFFFF": 33,
-        "#A67C52": 1
     }
 },
 {
     country: "Suriname",
     continent: "South America",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sr.png",
     colors: {
         "#006A4E": 40,
@@ -1917,6 +2057,7 @@ const flags = [
 {
     country: "Uruguay",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/uy.png",
     colors: {
         "#FFFFFF": 60,
@@ -1927,6 +2068,7 @@ const flags = [
 {
     country: "Venezuela",
     continent: "South America",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ve.png",
     colors: {
         "#FCD116": 33,
@@ -1944,6 +2086,7 @@ const flags = [
 {
     country: "Australia",
     continent: "Oceania",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/au.png",
     colors: {
         "#00008B": 80,
@@ -1954,6 +2097,7 @@ const flags = [
 {
     country: "Fiji",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/fj.png",
     colors: {
         "#68BFEF": 80,
@@ -1965,6 +2109,7 @@ const flags = [
 {
     country: "Kiribati",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/ki.png",
     colors: {
         "#C8102E": 50,
@@ -1976,6 +2121,7 @@ const flags = [
 {
     country: "Marshall Islands",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/mh.png",
     colors: {
         "#0033A0": 70,
@@ -1986,6 +2132,7 @@ const flags = [
 {
     country: "Micronesia",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/fm.png",
     colors: {
         "#75AADB": 95,
@@ -1995,6 +2142,7 @@ const flags = [
 {
     country: "Nauru",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/nr.png",
     colors: {
         "#002B7F": 80,
@@ -2005,6 +2153,7 @@ const flags = [
 {
     country: "New Zealand",
     continent: "Oceania",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/nz.png",
     colors: {
         "#00247D": 80,
@@ -2015,6 +2164,7 @@ const flags = [
 {
     country: "Palau",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/pw.png",
     colors: {
         "#4AADD6": 90,
@@ -2024,6 +2174,7 @@ const flags = [
 {
     country: "Papua New Guinea",
     continent: "Oceania",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/pg.png",
     colors: {
         "#000000": 50,
@@ -2035,6 +2186,7 @@ const flags = [
 {
     country: "Samoa",
     continent: "Oceania",
+    difficulty: "easy",
     img: "https://flagcdn.com/w320/ws.png",
     colors: {
         "#CE1126": 70,
@@ -2045,6 +2197,7 @@ const flags = [
 {
     country: "Solomon Islands",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/sb.png",
     colors: {
         "#0051BA": 50,
@@ -2056,6 +2209,7 @@ const flags = [
 {
     country: "Tonga",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/to.png",
     colors: {
         "#C8102E": 80,
@@ -2065,6 +2219,7 @@ const flags = [
 {
     country: "Tuvalu",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/tv.png",
     colors: {
         "#75B2DD": 80,
@@ -2076,6 +2231,7 @@ const flags = [
 {
     country: "Vanuatu",
     continent: "Oceania",
+    difficulty: "hard",
     img: "https://flagcdn.com/w320/vu.png",
     colors: {
         "#CE1126": 40,
