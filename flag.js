@@ -18,8 +18,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/al.png",
     colors: {
-        "#E41E20": 94,
-        "#000000": 6
+        "#E41E20": 90,
+        "#000000": 10
     }
 },
 {
@@ -28,10 +28,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/ad.png",
     colors: {
-        "#0033A0": 33,
+        "#0033A0": 32,
         "#FFD100": 33,
         "#C8102E": 33,
-        "#A67C52": 1
+        "#A67C52": 2
     }
 },
 {
@@ -56,27 +56,14 @@ const flags = [
     }
 },
 {
-    country: "Azerbaijan",
-    continent: "Europe",
-    difficulty: "hard",
-    img: "https://flagcdn.com/w320/az.png",
-    colors: {
-        "#00B5E2": 33,
-        "#ED2939": 33,
-        "#3F9C35": 33,
-        "#FFFFFF": 1
-    }
-},
-{
     country: "Belarus",
     continent: "Europe",
     difficulty: "hard",
     img: "https://flagcdn.com/w320/by.png",
     colors: {
-        "#D22730": 60,
-        "#009639": 40,
-        "#FFFFFF": 3,
-        "#C8102E": 3
+        "#D22730": 61,
+        "#009639": 35,
+        "#FFFFFF": 4,
     }
 },
 {
@@ -118,10 +105,10 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/hr.png",
     colors: {
-        "#FF0000": 33,
-        "#FFFFFF": 33,
-        "#171796": 33,
-        "#C8102E": 1,
+        "#FF0000": 34,
+        "#FFFFFF": 32,
+        "#171796": 32,
+        "rgb(16, 120, 200)": 1,
         "#F2A800": 1
     }
 },
@@ -131,9 +118,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/cz.png",
     colors: {
-        "#FFFFFF": 50,
-        "#D7141A": 40,
-        "#11457E": 10
+        "#FFFFFF": 35,
+        "#D7141A": 35,
+        "#11457E": 30
     }
 },
 {
@@ -163,8 +150,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/fi.png",
     colors: {
-        "#FFFFFF": 80,
-        "#002F6C": 20
+        "#FFFFFF": 75,
+        "#002F6C": 25
     }
 },
 {
@@ -184,8 +171,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ge.png",
     colors: {
-        "#FFFFFF": 80,
-        "#C8102E": 20
+        "#FFFFFF": 75,
+        "#C8102E": 25
     }
 },
 {
@@ -196,7 +183,7 @@ const flags = [
     colors: {
         "#000000": 33,
         "#DD0000": 33,
-        "#FFCE00": 34
+        "#FFCE00": 33
     }
 },
 {
@@ -205,7 +192,7 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/gr.png",
     colors: {
-        "#0D5EAF": 50,
+        "#5492d0": 50,
         "#FFFFFF": 50
     }
 },
@@ -226,9 +213,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/is.png",
     colors: {
-        "#003897": 80,
+        "#003897": 75,
         "#FFFFFF": 10,
-        "#D72828": 10
+        "#D72828": 15
     }
 },
 {
@@ -249,7 +236,7 @@ const flags = [
     img: "https://flagcdn.com/w320/it.png",
     colors: {
         "#009246": 33,
-        "#FFFFFF": 34,
+        "#FFFFFF": 33,
         "#CE2B37": 33
     }
 },
@@ -259,8 +246,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/lv.png",
     colors: {
-        "#9E1B34": 67,
-        "#FFFFFF": 33
+        "#9E1B34": 78,
+        "#FFFFFF": 22
     }
 },
 {
@@ -269,9 +256,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/li.png",
     colors: {
-        "#002B7F": 50,
-        "#CE1126": 50,
-        "#F2C300": 1
+        "#002B7F": 49,
+        "#CE1126": 49,
+        "#F2C300": 1,
+        "#000000": 1
     }
 },
 {
@@ -302,7 +290,7 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/mt.png",
     colors: {
-        "#FFFFFF": 50,
+        "#FFFFFF": 49,
         "#C8102E": 50,
         "#C0C0C0": 1
     }
@@ -314,9 +302,9 @@ const flags = [
     img: "https://flagcdn.com/w320/md.png",
     colors: {
         "#0033A0": 33,
-        "#FFD100": 33,
+        "#FFD100": 32,
         "#C8102E": 33,
-        "#A67C52": 1
+        "#A67C52": 2
     }
 },
 {
@@ -336,7 +324,10 @@ const flags = [
     img: "https://flagcdn.com/w320/me.png",
     colors: {
         "#C8102E": 80,
-        "#F2C300": 20
+        "#d5ab04": 18,
+        "#1a61d4": 1,
+        "#1d9e00": 1,
+
     }
 },
 {
@@ -356,8 +347,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/mk.png",
     colors: {
-        "#D20000": 80,
-        "#FCD116": 20
+        "#D20000": 65,
+        "#FCD116": 35
     }
 },
 {
@@ -367,7 +358,7 @@ const flags = [
     img: "https://flagcdn.com/w320/no.png",
     colors: {
         "#BA0C2F": 70,
-        "#00205B": 20,
+        "#1e5dd2": 20,
         "#FFFFFF": 10
     }
 },
@@ -387,9 +378,13 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/pt.png",
     colors: {
-        "#006600": 40,
+        "#006600": 36,
         "#FF0000": 60,
-        "#F2C300": 2
+        "#F2C300": 2,
+        "#1463b8": 1,
+        "#ffffff": 1,
+
+
     }
 },
 {
@@ -420,9 +415,11 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/sm.png",
     colors: {
-        "#FFFFFF": 50,
-        "#5EB6E4": 50,
-        "#A67C52": 1
+        "#FFFFFF": 49,
+        "#5EB6E4": 49,
+        "#A67C52": 1,
+        "#399f42": 1,
+
     }
 },
 {
@@ -431,9 +428,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/rs.png",
     colors: {
-        "#C8102E": 33,
-        "#FFFFFF": 33,
-        "#0C4076": 33,
+        "#C8102E": 34,
+        "#FFFFFF": 34,
+        "#0C4076": 31,
         "#A67C52": 1
     }
 },
@@ -444,9 +441,8 @@ const flags = [
     img: "https://flagcdn.com/w320/sk.png",
     colors: {
         "#FFFFFF": 33,
-        "#0B4EA2": 33,
-        "#EE1C25": 33,
-        "#A67C52": 1
+        "#0B4EA2": 31,
+        "#EE1C25": 36,
     }
 },
 {
@@ -458,7 +454,7 @@ const flags = [
         "#FFFFFF": 33,
         "#0033A0": 33,
         "#D52B1E": 33,
-        "#A67C52": 1
+        "#d3d048": 1
     }
 },
 {
@@ -467,8 +463,12 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/es.png",
     colors: {
-        "#AA151B": 50,
-        "#F1BF00": 50
+        "#AA151B": 49,
+        "#F1BF00": 49,
+        "#dcdcdc": 1,
+        "#2179ec": 1,
+
+
     }
 },
 {
@@ -487,8 +487,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ch.png",
     colors: {
-        "#D52B1E": 92,
-        "#FFFFFF": 8
+        "#D52B1E": 75,
+        "#FFFFFF": 25
     }
 },
 {
@@ -517,9 +517,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/gb.png",
     colors: {
-        "#012169": 38,
-        "#FFFFFF": 31,
-        "#C8102E": 31
+        "#012169": 28,
+        "#FFFFFF": 32,
+        "#C8102E": 40
     }
 },
 
@@ -558,9 +558,9 @@ const flags = [
     img: "https://flagcdn.com/w320/az.png",
     colors: {
         "#00B5E2": 33,
-        "#ED2939": 33,
+        "#ED2939": 32,
         "#3F9C35": 33,
-        "#FFFFFF": 1
+        "#FFFFFF": 2
     }
 },
 {
@@ -569,8 +569,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/bh.png",
     colors: {
-        "#FFFFFF": 45,
-        "#C8102E": 55
+        "#FFFFFF": 40,
+        "#C8102E": 60
     }
 },
 {
@@ -579,8 +579,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/bd.png",
     colors: {
-        "#006A4E": 90,
-        "#F42A41": 10
+        "#006A4E": 80,
+        "#F42A41": 20
     }
 },
 {
@@ -589,9 +589,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/bt.png",
     colors: {
-        "#FFCC00": 50,
-        "#FF4F00": 50,
-        "#FFFFFF": 5
+        "#FFCC00": 42,
+        "#FF4F00": 42,
+        "#FFFFFF": 6
     }
 },
 {
@@ -600,9 +600,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/bn.png",
     colors: {
-        "#F7E017": 70,
-        "#FFFFFF": 15,
-        "#000000": 15,
+        "#F7E017": 59,
+        "#FFFFFF": 18,
+        "#000000": 18,
         "#C8102E": 5
     }
 },
@@ -612,8 +612,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/kh.png",
     colors: {
-        "#032EA1": 67,
-        "#E00025": 33,
+        "#032EA1": 50,
+        "#E00025": 45,
         "#FFFFFF": 5
     }
 },
@@ -623,8 +623,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/cn.png",
     colors: {
-        "#EE1C25": 90,
-        "#FFDE00": 10
+        "#EE1C25": 93,
+        "#FFDE00": 7
     }
 },
 {
@@ -666,10 +666,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ir.png",
     colors: {
-        "#239F40": 33,
+        "#239F40": 32,
         "#FFFFFF": 33,
-        "#DA0000": 33,
-        "#000000": 1
+        "#DA0000": 35,
     }
 },
 {
@@ -691,7 +690,7 @@ const flags = [
     img: "https://flagcdn.com/w320/il.png",
     colors: {
         "#FFFFFF": 80,
-        "#0038B8": 20
+        "#299cd1": 20
     }
 },
 {
@@ -700,8 +699,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/jp.png",
     colors: {
-        "#FFFFFF": 92,
-        "#BC002D": 8
+        "#FFFFFF": 85,
+        "#BC002D": 15
     }
 },
 {
@@ -710,10 +709,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/jo.png",
     colors: {
-        "#000000": 33,
-        "#FFFFFF": 33,
-        "#007A3D": 33,
-        "#CE1126": 10
+        "#000000": 29,
+        "#FFFFFF": 31,
+        "#007A3D": 29,
+        "#CE1126": 21
     }
 },
 {
@@ -722,8 +721,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/kz.png",
     colors: {
-        "#00A3E0": 90,
-        "#F2C300": 10
+        "#00A3E0": 85,
+        "#F2C300": 15
     }
 },
 {
@@ -732,10 +731,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/kw.png",
     colors: {
-        "#007A3D": 33,
-        "#FFFFFF": 33,
-        "#CE1126": 33,
-        "#000000": 10
+        "#007A3D": 30,
+        "#FFFFFF": 25,
+        "#CE1126": 30,
+        "#000000": 15
     }
 },
 {
@@ -776,10 +775,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/my.png",
     colors: {
-        "#CC0001": 50,
-        "#FFFFFF": 40,
-        "#010066": 8,
-        "#FFCC00": 2
+        "#CC0001": 35,
+        "#FFFFFF": 35,
+        "#003a80": 25,
+        "#FFCC00": 5
     }
 },
 {
@@ -788,9 +787,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/mv.png",
     colors: {
-        "#D21034": 80,
-        "#007E3A": 18,
-        "#FFFFFF": 2
+        "#D21034": 60,
+        "#007E3A": 35,
+        "#FFFFFF": 5
     }
 },
 {
@@ -799,7 +798,7 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/mn.png",
     colors: {
-        "#C4272F": 67,
+        "#C4272F": 62,
         "#01579B": 33,
         "#F2C300": 5
     }
@@ -810,9 +809,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/mm.png",
     colors: {
-        "#FECB00": 33,
-        "#34B233": 33,
-        "#EA2839": 33,
+        "#FECB00": 32,
+        "#34B233": 31,
+        "#EA2839": 32,
         "#FFFFFF": 5
     }
 },
@@ -822,9 +821,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/np.png",
     colors: {
-        "#DC143C": 60,
-        "#003893": 35,
-        "#FFFFFF": 5
+        "#DC143C": 65,
+        "#003893": 15,
+        "#FFFFFF": 20
     }
 },
 {
@@ -833,8 +832,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/kp.png",
     colors: {
-        "#ED1C27": 50,
-        "#024FA2": 40,
+        "#ED1C27": 60,
+        "#024FA2": 30,
         "#FFFFFF": 10
     }
 },
@@ -844,9 +843,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/om.png",
     colors: {
-        "#FFFFFF": 20,
+        "#FFFFFF": 27,
         "#D40000": 50,
-        "#009739": 30
+        "#009739": 23
     }
 },
 {
@@ -855,8 +854,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/pk.png",
     colors: {
-        "#01411C": 70,
-        "#FFFFFF": 30
+        "#01411C": 65,
+        "#FFFFFF": 35
     }
 },
 {
@@ -865,10 +864,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/ps.png",
     colors: {
-        "#000000": 33,
-        "#FFFFFF": 33,
-        "#007A3D": 33,
-        "#CE1126": 10
+        "#000000": 39,
+        "#FFFFFF": 28,
+        "#007A3D": 39,
+        "#CE1126": 14
     }
 },
 {
@@ -909,8 +908,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/sg.png",
     colors: {
-        "#ED2939": 50,
-        "#FFFFFF": 50
+        "#ED2939": 47,
+        "#FFFFFF": 53
     }
 },
 {
@@ -919,10 +918,10 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/kr.png",
     colors: {
-        "#FFFFFF": 80,
-        "#000000": 10,
-        "#C60C30": 5,
-        "#003478": 5
+        "#FFFFFF": 76,
+        "#000000": 8,
+        "#C60C30": 8,
+        "#003478": 8
     }
 },
 {
@@ -931,11 +930,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/lk.png",
     colors: {
-        "#FFB612": 40,
-        "#0085CA": 10,
-        "#006A4E": 10,
-        "#8D153A": 35,
-        "#FFFFFF": 5
+        "#ffea00": 40,
+        "#d7ab3b": 12,
+        "#0e8867": 12,
+        "#8D153A": 36,
     }
 },
 {
@@ -944,10 +942,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/sy.png",
     colors: {
-        "#CE1126": 33,
-        "#FFFFFF": 33,
+        "#007A3D": 33,
+        "#FFFFFF": 30,
         "#000000": 33,
-        "#007A3D": 2
+        "#CE1126": 4,
     }
 },
 {
@@ -959,7 +957,7 @@ const flags = [
         "#D40000": 33,
         "#FFFFFF": 33,
         "#006600": 33,
-        "#F2C300": 2
+        "#F2C300": 1
     }
 },
 {
@@ -970,7 +968,7 @@ const flags = [
     colors: {
         "#A51931": 30,
         "#FFFFFF": 30,
-        "#2D2A4A": 40
+        "#1555ce": 40
     }
 },
 {
@@ -979,7 +977,7 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/tl.png",
     colors: {
-        "#DC241F": 70,
+        "#DC241F": 68,
         "#FFC72C": 20,
         "#000000": 10,
         "#FFFFFF": 2
@@ -992,8 +990,9 @@ const flags = [
     img: "https://flagcdn.com/w320/tm.png",
     colors: {
         "#009639": 80,
-        "#C8102E": 15,
-        "#FFFFFF": 5
+        "#C8102E": 14,
+        "#FFFFFF": 5,
+        "#afb351": 1,
     }
 },
 {
@@ -1014,10 +1013,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/uz.png",
     colors: {
-        "#0099B5": 40,
-        "#FFFFFF": 40,
-        "#CE1126": 10,
-        "#43B02A": 10
+        "#0099B5": 32,
+        "#FFFFFF": 35,
+        "#CE1126": 1,
+        "#43B02A": 32
     }
 },
 {
@@ -1026,8 +1025,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/vn.png",
     colors: {
-        "#DA251D": 90,
-        "#FFFF00": 10
+        "#DA251D": 85,
+        "#FFFF00": 15
     }
 },
 {
@@ -1054,8 +1053,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/dz.png",
     colors: {
-        "#006233": 50,
-        "#FFFFFF": 50,
+        "#006233": 48,
+        "#FFFFFF": 47,
         "#D21034": 5
     }
 },
@@ -1065,8 +1064,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/ao.png",
     colors: {
-        "#000000": 50,
-        "#CC0000": 50,
+        "#000000": 42,
+        "#CC0000": 43,
         "#F7D618": 5
     }
 },
@@ -1076,9 +1075,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/bj.png",
     colors: {
-        "#008751": 50,
-        "#FCD116": 25,
-        "#E8112D": 25
+        "#008751": 40,
+        "#FCD116": 30,
+        "#E8112D": 30
     }
 },
 {
@@ -1088,8 +1087,8 @@ const flags = [
     img: "https://flagcdn.com/w320/bw.png",
     colors: {
         "#75AADB": 80,
-        "#FFFFFF": 10,
-        "#000000": 10
+        "#FFFFFF": 8,
+        "#000000": 12
     }
 },
 {
@@ -1098,8 +1097,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/bf.png",
     colors: {
-        "#EF3340": 50,
-        "#009739": 50,
+        "#EF3340": 42,
+        "#009739": 43,
         "#FCD116": 5
     }
 },
@@ -1109,9 +1108,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/bi.png",
     colors: {
-        "#CE1126": 40,
-        "#FFFFFF": 40,
-        "#1EB53A": 20
+        "#CE1126": 34,
+        "#FFFFFF": 34,
+        "#1EB53A": 32
     }
 },
 {
@@ -1134,7 +1133,7 @@ const flags = [
     colors: {
         "#007A5E": 33,
         "#CE1126": 33,
-        "#FCD116": 33
+        "#FCD116": 34
     }
 },
 {
@@ -1143,11 +1142,11 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/cf.png",
     colors: {
-        "#003082": 25,
-        "#FFFFFF": 25,
-        "#D21034": 25,
-        "#00923F": 25,
-        "#FCD116": 5
+        "#003082": 20,
+        "#FFFFFF": 20,
+        "#D21034": 18,
+        "#00923F": 20,
+        "#FCD116": 22
     }
 },
 {
@@ -1167,26 +1166,26 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/km.png",
     colors: {
-        "#FFC61E": 25,
-        "#FFFFFF": 25,
-        "#3A75C4": 25,
-        "#CE1126": 25,
-        "#006233": 10
+        "#FFC61E": 20,
+        "#FFFFFF": 22,
+        "#3A75C4": 20,
+        "#CE1126": 20,
+        "#006233": 18
     }
 },
 {
-    country: "Congo (Republic)",
+    country: "Congo",
     continent: "Africa",
     difficulty: "hard",
     img: "https://flagcdn.com/w320/cg.png",
     colors: {
-        "#009543": 33,
-        "#FCD116": 33,
-        "#DC241F": 33
+        "#009543": 35,
+        "#FCD116": 30,
+        "#DC241F": 35
     }
 },
 {
-    country: "Congo (DRC)",
+    country: "DR Congo",
     continent: "Africa",
     difficulty: "easy",
     img: "https://flagcdn.com/w320/cd.png",
@@ -1202,9 +1201,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/dj.png",
     colors: {
-        "#6AB2E7": 50,
-        "#00A650": 40,
-        "#FFFFFF": 10,
+        "#6AB2E7": 39,
+        "#00A650": 39,
+        "#FFFFFF": 20,
         "#D7141A": 2
     }
 },
@@ -1226,11 +1225,11 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/gq.png",
     colors: {
-        "#009739": 33,
-        "#FFFFFF": 33,
-        "#D21034": 33,
+        "#009739": 30,
+        "#FFFFFF": 29,
+        "#D21034": 30,
         "#00A3E0": 10,
-        "#C09300": 2
+        "#7e6100": 1
     }
 },
 {
@@ -1239,10 +1238,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/er.png",
     colors: {
-        "#12B2B2": 33,
-        "#3A75C4": 33,
-        "#D21034": 33,
-        "#FCD116": 5
+        "#12B2B2": 32,
+        "#008216": 32,
+        "#D21034": 32,
+        "#FCD116": 4
     }
 },
 {
@@ -1251,11 +1250,11 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/sz.png",
     colors: {
-        "#3A75C4": 60,
-        "#FFD100": 20,
-        "#CE1126": 20,
-        "#000000": 5,
-        "#FFFFFF": 5
+        "#3A75C4": 30,
+        "#FFD100": 10,
+        "#CE1126": 35,
+        "#000000": 12,
+        "#FFFFFF": 13
     }
 },
 {
@@ -1264,10 +1263,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/et.png",
     colors: {
-        "#078930": 33,
-        "#FCD116": 33,
-        "#C1272D": 33,
-        "#0033A0": 5
+        "#078930": 31,
+        "#FCD116": 31,
+        "#C1272D": 31,
+        "#678ee3": 7
     }
 },
 {
@@ -1287,11 +1286,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/gm.png",
     colors: {
-        "#CE1126": 33,
-        "#FFFFFF": 10,
-        "#0033A0": 33,
-        "#FFFFFF": 10,
-        "#009739": 33
+        "#CE1126": 32,
+        "#FFFFFF": 4,
+        "#0033A0": 32,
+        "#009739": 32
     }
 },
 {
@@ -1314,7 +1312,8 @@ const flags = [
     colors: {
         "#CE1126": 33,
         "#FCD116": 33,
-        "#009739": 33
+        "#009739": 33,
+
     }
 },
 {
@@ -1326,7 +1325,7 @@ const flags = [
         "#CE1126": 33,
         "#FCD116": 33,
         "#009739": 33,
-        "#000000": 5
+        "#000000": 1
     }
 },
 {
@@ -1335,10 +1334,10 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ke.png",
     colors: {
-        "#000000": 33,
+        "#000000": 32,
         "#BB0000": 33,
-        "#006600": 33,
-        "#FFFFFF": 1
+        "#006600": 32,
+        "#FFFFFF": 3
     }
 },
 {
@@ -1347,10 +1346,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/ls.png",
     colors: {
-        "#00209F": 33,
-        "#FFFFFF": 33,
-        "#009739": 33,
-        "#000000": 5
+        "#00209F": 32,
+        "#FFFFFF": 32,
+        "#009739": 32,
+        "#000000": 4
     }
 },
 {
@@ -1359,9 +1358,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/lr.png",
     colors: {
-        "#BF0A30": 55,
+        "#BF0A30": 50,
         "#FFFFFF": 40,
-        "#002868": 5
+        "#002868": 10
     }
 },
 {
@@ -1373,7 +1372,7 @@ const flags = [
         "#CE1126": 33,
         "#000000": 33,
         "#009739": 33,
-        "#FFFFFF": 2
+        "#FFFFFF": 1
     }
 },
 {
@@ -1393,8 +1392,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/mw.png",
     colors: {
-        "#000000": 33,
-        "#CE1126": 33,
+        "#000000": 31,
+        "#CE1126": 36,
         "#1EB53A": 33
     }
 },
@@ -1415,8 +1414,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/mr.png",
     colors: {
-        "#006233": 80,
-        "#FCD116": 20
+        "#006233": 70,
+        "#FCD116": 15,
+        "#ae1919": 15,
+
     }
 },
 {
@@ -1447,10 +1448,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/mz.png",
     colors: {
-        "#007A33": 33,
-        "#FCD116": 33,
-        "#CE1126": 33,
-        "#000000": 10,
+        "#007A33": 25,
+        "#FCD116": 25,
+        "#CE1126": 20,
+        "#000000": 25,
         "#FFFFFF": 5
     }
 },
@@ -1463,7 +1464,7 @@ const flags = [
         "#003580": 40,
         "#009739": 40,
         "#CE1126": 10,
-        "#FCD116": 10,
+        "#FCD116": 5,
         "#FFFFFF": 5
     }
 },
@@ -1473,10 +1474,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ne.png",
     colors: {
-        "#E05206": 33,
-        "#FFFFFF": 33,
-        "#0DB02B": 33,
-        "#E05206": 5
+        "#E05206": 36,
+        "#FFFFFF": 32,
+        "#0DB02B": 32,
     }
 },
 {
@@ -1485,8 +1485,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ng.png",
     colors: {
-        "#008751": 50,
-        "#FFFFFF": 50
+        "#008751": 66,
+        "#FFFFFF": 34
     }
 },
 {
@@ -1495,8 +1495,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/rw.png",
     colors: {
-        "#00A1DE": 50,
-        "#FCD116": 25,
+        "#00A1DE": 49,
+        "#FCD116": 26,
         "#1EB53A": 25
     }
 },
@@ -1506,10 +1506,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/st.png",
     colors: {
-        "#009739": 50,
+        "#009739": 40,
         "#FCD116": 40,
-        "#CE1126": 10,
-        "#000000": 2
+        "#CE1126": 15,
+        "#000000": 5
     }
 },
 {
@@ -1519,7 +1519,7 @@ const flags = [
     img: "https://flagcdn.com/w320/sn.png",
     colors: {
         "#00853F": 35,
-        "#FCD116": 33,
+        "#FCD116": 32,
         "#E31B23": 33,
     }
 },
@@ -1553,8 +1553,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/so.png",
     colors: {
-        "#40A6FF": 95,
-        "#FFFFFF": 5
+        "#40A6FF": 90,
+        "#FFFFFF": 10
     }
 },
 {
@@ -1566,9 +1566,9 @@ const flags = [
         "#007749": 28,
         "#DE1F26": 22,
         "#003DA5": 20,
-        "#FFB81C": 10,
+        "#FFB81C": 8,
         "#000000": 12,
-        "#FFFFFF": 8
+        "#FFFFFF": 10
     }
 },
 {
@@ -1577,11 +1577,13 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/ss.png",
     colors: {
-        "#CE1126": 33,
-        "#000000": 33,
-        "#1EB53A": 33,
-        "#0033A0": 10,
-        "#FCD116": 5
+        "#CE1126": 25,
+        "#000000": 25,
+        "#127424": 25,
+        "#0033A0": 18,
+        "#FCD116": 4,
+        "#ffffff": 3,
+
     }
 },
 {
@@ -1590,10 +1592,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/sd.png",
     colors: {
-        "#CE1126": 33,
-        "#FFFFFF": 33,
-        "#000000": 33,
-        "#007A3D": 10
+        "#CE1126": 27,
+        "#FFFFFF": 26,
+        "#000000": 27,
+        "#007A3D": 20
     }
 },
 {
@@ -1604,8 +1606,8 @@ const flags = [
     colors: {
         "#1EB53A": 40,
         "#00A3E0": 40,
-        "#000000": 10,
-        "#FCD116": 10
+        "#000000": 12,
+        "#FCD116": 8
     }
 },
 {
@@ -1614,10 +1616,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/tg.png",
     colors: {
-        "#006A4E": 60,
+        "#006A4E": 55,
         "#FCD116": 35,
         "#CE1126": 5,
-        "#FFFFFF": 2
+        "#FFFFFF": 5
     }
 },
 {
@@ -1636,10 +1638,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/ug.png",
     colors: {
-        "#FCD116": 33,
-        "#000000": 33,
-        "#CE1126": 33,
-        "#FFFFFF": 2
+        "#FCD116": 32,
+        "#000000": 32,
+        "#CE1126": 32,
+        "#FFFFFF": 4
     }
 },
 {
@@ -1648,10 +1650,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/zm.png",
     colors: {
-        "#198A00": 80,
-        "#CE1126": 10,
-        "#FCD116": 5,
-        "#000000": 5
+        "#198A00": 70,
+        "#CE1126": 8,
+        "#FCD116": 14,
+        "#000000": 8
     }
 },
 {
@@ -1660,12 +1662,11 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/zw.png",
     colors: {
-        "#009739": 20,
-        "#FCD116": 20,
-        "#CE1126": 20,
-        "#000000": 20,
-        "#FFFFFF": 20,
-        "#F7D618": 5
+        "#009739": 21,
+        "#FCD116": 25,
+        "#CE1126": 22,
+        "#000000": 11,
+        "#FFFFFF": 21,
     }
 },
 
@@ -1680,8 +1681,8 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/ag.png",
     colors: {
-        "#000000": 40,
-        "#CE1126": 30,
+        "#000000": 25,
+        "#CE1126": 45,
         "#FFFFFF": 10,
         "#FCD116": 10,
         "#0072C6": 10
@@ -1694,8 +1695,8 @@ const flags = [
     img: "https://flagcdn.com/w320/bs.png",
     colors: {
         "#00A3E0": 60,
-        "#FCD116": 30,
-        "#000000": 10
+        "#FCD116": 25,
+        "#000000": 15
     }
 },
 {
@@ -1704,9 +1705,10 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/bb.png",
     colors: {
-        "#00267F": 66,
+        "#00267F": 65,
         "#FFC726": 33,
         "#000000": 1
+
     }
 },
 {
@@ -1716,10 +1718,10 @@ const flags = [
     img: "https://flagcdn.com/w320/bz.png",
     colors: {
         "#002B7F": 70,
-        "#CE1126": 20,
-        "#FFFFFF": 10,
-        "#00843D": 5,
-        "#A67C52": 5
+        "#CE1126": 14,
+        "#FFFFFF": 14,
+        "#00843d": 1,
+        "#A67C52": 1
     }
 },
 {
@@ -1728,8 +1730,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ca.png",
     colors: {
-        "#FF0000": 60,
-        "#FFFFFF": 40
+        "#FF0000": 70,
+        "#FFFFFF": 30
     }
 },
 {
@@ -1738,9 +1740,11 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/cr.png",
     colors: {
-        "#002B7F": 40,
-        "#FFFFFF": 20,
-        "#CE1126": 40
+        "#002B7F": 33,
+        "#FFFFFF": 33,
+        "#CE1126": 33,
+        "#007dab": 1,
+
     }
 },
 {
@@ -1749,9 +1753,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/cu.png",
     colors: {
-        "#002A8F": 40,
-        "#FFFFFF": 40,
-        "#CF142B": 20
+        "#002A8F": 37,
+        "#FFFFFF": 37,
+        "#CF142B": 26
     }
 },
 {
@@ -1773,10 +1777,10 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/do.png",
     colors: {
-        "#002D62": 40,
-        "#CE1126": 40,
-        "#FFFFFF": 20,
-        "#A67C52": 2
+        "#002D62": 33,
+        "#CE1126": 33,
+        "#FFFFFF": 33,
+        "#A67C52": 1
     }
 },
 {
@@ -1796,9 +1800,9 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/gd.png",
     colors: {
-        "#CE1126": 50,
-        "#FCD116": 40,
-        "#007A33": 10
+        "#CE1126": 40,
+        "#FCD116": 30,
+        "#007A33": 30
     }
 },
 {
@@ -1807,9 +1811,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/gt.png",
     colors: {
-        "#6CCFF6": 66,
+        "#6CCFF6": 65,
         "#FFFFFF": 33,
-        "#A67C52": 1
+        "#00843d": 2
     }
 },
 {
@@ -1818,8 +1822,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ht.png",
     colors: {
-        "#00209F": 50,
-        "#D21034": 50,
+        "#00209F": 45,
+        "#D21034": 45,
         "#FFFFFF": 5,
         "#A67C52": 5
     }
@@ -1840,9 +1844,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/jm.png",
     colors: {
-        "#009B3A": 50,
-        "#000000": 25,
-        "#FCD116": 25
+        "#009B3A": 42,
+        "#000000": 43,
+        "#FCD116": 15
     }
 },
 {
@@ -1874,9 +1878,9 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/pa.png",
     colors: {
-        "#FFFFFF": 50,
-        "#D21034": 25,
-        "#002B7F": 25
+        "#FFFFFF": 48,
+        "#D21034": 26,
+        "#002B7F": 26
     }
 },
 {
@@ -1888,7 +1892,7 @@ const flags = [
         "#009739": 40,
         "#CE1126": 40,
         "#000000": 10,
-        "#FCD116": 10,
+        "#FCD116": 5,
         "#FFFFFF": 5
     }
 },
@@ -1898,10 +1902,10 @@ const flags = [
     difficulty: "hard",
     img: "https://flagcdn.com/w320/lc.png",
     colors: {
-        "#66CCFF": 80,
+        "#66CCFF": 70,
         "#FFFFFF": 10,
-        "#000000": 5,
-        "#FCD116": 5
+        "#000000": 10,
+        "#FCD116": 10
     }
 },
 {
@@ -1911,9 +1915,8 @@ const flags = [
     img: "https://flagcdn.com/w320/vc.png",
     colors: {
         "#FCD116": 50,
-        "#009739": 25,
-        "#0072C6": 25,
-        "#000000": 2
+        "#009739": 27,
+        "#0072C6": 23,
     }
 },
 {
@@ -1923,8 +1926,8 @@ const flags = [
     img: "https://flagcdn.com/w320/tt.png",
     colors: {
         "#CE1126": 80,
-        "#FFFFFF": 10,
-        "#000000": 10
+        "#FFFFFF": 8,
+        "#000000": 12
     }
 },
 {
@@ -1958,7 +1961,6 @@ const flags = [
         "#D52B1E": 33,
         "#FCD116": 33,
         "#007A33": 33,
-        "#A67C52": 1
     }
 },
 {
@@ -2001,8 +2003,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/ec.png",
     colors: {
-        "#FCD116": 50,
-        "#003893": 25,
+        "#FCD116": 49,
+        "#003893": 24,
         "#CE1126": 25,
         "#A67C52": 2
     }
@@ -2015,9 +2017,9 @@ const flags = [
     colors: {
         "#009739": 50,
         "#FCD116": 25,
-        "#FFFFFF": 10,
-        "#000000": 10,
-        "#CE1126": 5
+        "#FFFFFF": 2,
+        "#000000": 2,
+        "#CE1126": 21
     }
 },
 {
