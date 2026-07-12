@@ -1834,8 +1834,8 @@ const flags = [
     difficulty: "easy",
     img: "https://flagcdn.com/w320/hn.png",
     colors: {
-        "#FFFFFF": 66,
-        "#0073CF": 33
+        "#FFFFFF": 33,
+        "#0073CF": 66
     }
 },
 {
