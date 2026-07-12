@@ -10,7 +10,7 @@ let missedFlags = 0;         // total missed flags
 let hintIndex = 0;           // which hint to show next (0,1,2)
 let previousGuesses = [];    // wrong guesses this round
 let unusedFlags = [];        // pool of flags not yet used in this cycle
-let currentMode = "easy";   // default mode
+let currentMode = "easy";    // default mode
 
 // Fisher–Yates shuffle for randomizing flag order
 function shuffle(array) {
@@ -25,19 +25,16 @@ function drawPieChart(colors) {
     const canvas = document.getElementById("pie-chart");
     const ctx = canvas.getContext("2d");
 
-    // Clear previous drawing
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    // Sum of all color values (ratios)
     const total = Object.values(colors).reduce((a, b) => a + b, 0);
     let startAngle = 0;
 
-    // Each entry: key = hex color, value = ratio
     Object.entries(colors).forEach(([hexColor, value]) => {
         const sliceAngle = (value / total) * 2 * Math.PI;
 
         ctx.beginPath();
-        ctx.moveTo(150, 150); // center of canvas
+        ctx.moveTo(150, 150);
         ctx.arc(150, 150, 150, startAngle, startAngle + sliceAngle);
         ctx.closePath();
         ctx.fillStyle = hexColor;
@@ -79,19 +76,14 @@ function showPopup(correct) {
     const popup = document.getElementById("popup");
     popup.classList.remove("hidden");
 
-    // Show flag image
     document.getElementById("popup-flag").src = currentFlag.img;
-
-    // Show correct answer
     document.getElementById("popup-answer").textContent =
         `Correct Answer: ${currentFlag.country}`;
 
-    // Show number of guesses used
     const used = correct ? (previousGuesses.length + 1) : 5;
     document.getElementById("popup-guesses").textContent =
         `Guesses Used: ${used}`;
 
-    // Show wrong guesses
     const wrongDiv = document.getElementById("popup-wrong");
     wrongDiv.innerHTML = "";
     previousGuesses.forEach(g => {
@@ -108,18 +100,18 @@ document.getElementById("popup-next-btn").addEventListener("click", () => {
 });
 
 // Starts a new round with a new flag
-
 function newGame() {
-    // Filter flags by difficulty
-    unusedFlags = flags.filter(flag => flag.difficulty === currentMode);
-    // Shuffle the filtered list
-    shuffle(unusedFlags);
-    // Pick the next flag
+
+    // If the deck is empty, rebuild it for the current mode
+    if (unusedFlags.length === 0) {
+        unusedFlags = flags.filter(flag => flag.difficulty === currentMode);
+        shuffle(unusedFlags);
+    }
+
+    // Pull ONE flag from the deck
     currentFlag = unusedFlags.pop();
 
-
-    // Pick the next flag from the pool
-    currentFlag = unusedFlags.pop();
+    // Reset round state
     guessesLeft = 5;
     hintIndex = 0;
     previousGuesses = [];
@@ -130,8 +122,9 @@ function newGame() {
     document.getElementById("hints").innerHTML = "";
     document.getElementById("previous-guesses").innerHTML = "";
     document.getElementById("difficulty-display").textContent =
-    `Mode: ${currentMode.charAt(0).toUpperCase() + currentMode.slice(1)}`;
+        `Mode: ${currentMode.charAt(0).toUpperCase() + currentMode.slice(1)}`;
 
+    console.log("Remaining flags:", unusedFlags.length, "Mode:", currentMode);
 
     // Draw the pie chart for this flag
     drawPieChart(currentFlag.colors);
@@ -143,45 +136,34 @@ function submitGuess() {
     const guess = guessInput.value.trim().toLowerCase();
     if (!guess) return;
 
-    // Correct guess
     if (guess === currentFlag.country.toLowerCase()) {
         showPopup(true);
         return;
     }
 
-    // Wrong guess
     guessesLeft--;
-
-    // Track wrong guess
     previousGuesses.push(guess);
     updatePreviousGuesses();
 
     if (guessesLeft > 0) {
         document.getElementById("message").textContent =
             `Wrong! ${guessesLeft} guesses left.`;
-
-        // Reveal next hint
         showNextHint();
     } else {
-        // Out of guesses
         document.getElementById("message").textContent = `Out of guesses!`;
 
         missedFlags++;
         document.getElementById("missed-count").textContent =
             `Missed Flags: ${missedFlags}`;
 
-        // Show summary popup
         showPopup(false);
     }
 }
 
 function giveUp() {
-    // Mark the round as missed
     missedFlags++;
     document.getElementById("missed-count").textContent =
         `Missed Flags: ${missedFlags}`;
-
-    // End the round immediately
     showPopup(false);
 }
 
@@ -202,29 +184,28 @@ function updatePreviousGuesses() {
 document.getElementById("guess-btn").addEventListener("click", submitGuess);
 document.getElementById("new-game-btn").addEventListener("click", newGame);
 document.getElementById("give-up-btn").addEventListener("click", giveUp);
-document.getElementById("difficulty-display").textContent = "Mode: Easy";
 
-
+// Difficulty buttons
 document.getElementById("easy-mode-btn").addEventListener("click", () => {
     currentMode = "easy";
+    unusedFlags = flags.filter(flag => flag.difficulty === currentMode);
+    shuffle(unusedFlags);
     newGame();
 });
+
 document.getElementById("hard-mode-btn").addEventListener("click", () => {
     currentMode = "hard";
+    unusedFlags = flags.filter(flag => flag.difficulty === currentMode);
+    shuffle(unusedFlags);
     newGame();
 });
 
-
-
-// Initialize game: set up unusedFlags and start first round
+// Initialize game
 function initGame() {
-    // Copy all flags into the unused pool and shuffle
-    unusedFlags = [...flags];
+    unusedFlags = flags.filter(flag => flag.difficulty === currentMode);
     shuffle(unusedFlags);
-
-    // Start first round
     newGame();
 }
 
-// Kick off the game once the script loads
+// Kick off the game
 initGame();
